@@ -1,0 +1,237 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3240341,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Registration_FFlyer.beforeTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 71273,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Registration_FFlyer.set_data()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34154646864,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Registration_FFlyer.beforeMethod()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "User enter all the personal details on the frequent flyer page",
+        "description": "",
+        "id": "qantas-frequent-flyer-registration-form-filling;user-enter-all-the-personal-details-on-the-frequent-flyer-page",
+        "after": [
+          {
+            "result": {
+              "duration": 11695087545,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Registration_FFlyer.afterMethod()"
+            }
+          },
+          {
+            "result": {
+              "duration": 108904,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Registration_FFlyer.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5169061619,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Qantas frequent flyer registration url",
+            "match": {
+              "location": "Registration_FFlyer.qantas_frequent_flyer_registration_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 455822920,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the form is ready for entering details",
+            "match": {
+              "location": "Registration_FFlyer.the_form_is_ready_for_entering_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8220934436,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the personal details",
+            "match": {
+              "location": "Registration_FFlyer.user_enters_the_personal_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Title",
+                  "First_Name",
+                  "Last_Name",
+                  "Mobile_Number"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "Mr",
+                  "Rajaneesh",
+                  "Balakrishnan",
+                  "0423149505"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3713548307,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the address details",
+            "match": {
+              "location": "Registration_FFlyer.user_enters_the_address_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Address_Line1",
+                  "Address_Line2",
+                  "Suburb",
+                  "State",
+                  "PostalCode"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "67",
+                  "Girraween_Road",
+                  "Girraween",
+                  "7",
+                  "2145"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5465570740,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters the email and consent",
+            "match": {
+              "location": "Registration_FFlyer.user_enters_the_email_and_consent(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Email",
+                  "Email_Confirmation"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "sydneyrajaneesh@gmail.com",
+                  "sydneyrajaneesh@gmail.com"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4120239841,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enters the security information",
+            "match": {
+              "location": "Registration_FFlyer.the_user_enters_the_security_information(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Date",
+                  "Month",
+                  "Year",
+                  "Mothers_Maiden_name",
+                  "create_pin",
+                  "confirm_pin"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "17",
+                  "3",
+                  "85",
+                  "Rajam",
+                  "9809",
+                  "9809"
+                ],
+                "line": 16
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76646247523,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user accepts the terms and conditions",
+            "match": {
+              "location": "Registration_FFlyer.the_user_accepts_the_terms_and_conditions()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Qantas Frequent Flyer Registration form filling",
+    "description": "",
+    "id": "qantas-frequent-flyer-registration-form-filling",
+    "keyword": "Feature",
+    "uri": "FrequentFlyer_Registration.feature"
+  }
+]
